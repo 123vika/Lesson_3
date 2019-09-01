@@ -39,7 +39,7 @@ public class PhoneBook {
 
     public  void get(String lastName){
         if (!map.containsKey(lastName)) {
-            System.out.println("В справочнике нет такой фамилии");
+            System.out.println(" В справочнике нет такой фамилии");
         }else {
             System.out.println(lastName+ " имеет номер(а): " + map.get(lastName));
     }
